@@ -1,5 +1,11 @@
 @import './variables';
 
+.main-block {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
 .background-image {
     position: absolute;
     width: 100%;
@@ -18,18 +24,16 @@
 
 .main-container {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 200px);
     color: white;
 }
 
 .welcome-block {
     display: flex;
+    align-items: center;
     gap: 50px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     font-weight: 600;
 }
 
@@ -44,10 +48,8 @@
 
 .welcome-image {
     position: absolute;
-    top: 15%;
     right: 20px;
-    height: 600px;
-    width: 400px;
+    width: 50%;
     opacity: 0;
     animation: photo-animation 1s 1s forwards;
     z-index: -1;
@@ -79,12 +81,13 @@
 }
 
 @media (max-width: 768px) {
-    .welcome-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .main-container {
         height: auto;
-        padding-top: 100px;
+    }
+
+    .welcome-block {
+        flex-direction: column;
+        height: auto;
     }
 
     .welcome-image {
@@ -92,6 +95,7 @@
         right: 0;
         top: 0;
         height: 400px;
+        width: auto;
     }
 
     .welcome-text {
