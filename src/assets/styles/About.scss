@@ -3,6 +3,7 @@
 .about {
     background-color: black;
     color: white;
+    padding-top: 30px;
 }
 
 .text {
@@ -42,7 +43,20 @@
 }
 
 @media (max-width: 768px) {
+    .section-title-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-text {
+        flex: 1 1 auto;
+    }
+
     .text {
         font-size: 20px;
+    }
+
+    .image-wrapper {
+        display: none;
     }
 }
