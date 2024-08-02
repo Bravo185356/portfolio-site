@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <div class="about-container">
+    <div class="block-container">
       <div class="content">
         <div class="image-wrapper">
           <img src="@/assets/images/about-img.png" alt="" />

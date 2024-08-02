@@ -22,7 +22,7 @@
     }
 }
 
-.main-container {
+.block-container {
     position: relative;
     height: calc(100vh - 200px);
     color: white;
@@ -81,7 +81,7 @@
 }
 
 @media (max-width: 768px) {
-    .main-container {
+    .block-container {
         height: auto;
     }
 

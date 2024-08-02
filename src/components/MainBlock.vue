@@ -3,7 +3,7 @@
     <div class="background-image">
       <img src="@/assets/images/main-background.jpg" alt="Темный фон" />
     </div>
-    <div class="main-container">
+    <div class="block-container">
       <div class="welcome-block">
         <Transition name="text">
           <div class="welcome-text">
