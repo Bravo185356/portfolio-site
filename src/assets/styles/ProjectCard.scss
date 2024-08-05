@@ -1,0 +1,70 @@
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.project-card {
+    flex: 0 1 600px;
+    padding: 20px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+.project-about {
+    font-size: 16px;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.used-technologies {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+    .tag {
+        background-color: rgb(54, 54, 54);
+        padding: 3px 10px;
+        border-radius: 5px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.project-controls {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    flex: 1 1 auto;
+}
+
+.slider {
+    height: 430px;
+}
+
+@media (max-width: 650px) {
+    .slide {
+        background-position: top center;
+    }
+
+    .slider {
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .slider {
+        height: 250px;
+    }
+}
