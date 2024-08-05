@@ -1,5 +1,5 @@
 <template>
-  <section class="projects">
+  <section class="projects section">
     <div class="block-container">
       <div class="section-title-wrapper center">
         <h3 class="title">Портфолио</h3>
@@ -25,16 +25,3 @@ const projects = ref([
   },
 ]);
 </script>
-
-<style lang="scss" scoped>
-.projects {
-  background-color: black;
-  padding: 120px 0px;
-}
-
-@media (max-width: 650px) {
-  .projects {
-    padding: 60px 0px;
-  }
-}
-</style>

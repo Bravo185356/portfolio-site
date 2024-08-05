@@ -1,5 +1,5 @@
 <template>
-  <section class="technologies">
+  <section class="technologies section">
     <div class="block-container">
       <div class="section-title-wrapper center">
         <h3 class="title">Используемые технологии</h3>

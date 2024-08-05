@@ -15,6 +15,15 @@
     padding: 0px 20px;
 }
 
+.section {
+    background-color: black;
+    padding-top: 120px;
+
+    &.projects {
+        padding: 120px 0px 60px 0px;
+    }
+}
+
 .section-title-wrapper {
     &.center {
         text-align: center;
@@ -34,4 +43,13 @@
     .title {
         font-size: 2rem;
     }
+
+    .section {
+        padding-top: 70px;
+
+        &.projects {
+            padding: 70px 0px;
+        }
+    }
+    
 }
